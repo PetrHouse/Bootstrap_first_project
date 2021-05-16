@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Projekt</title>
+</head>
+
+<body>
+
+
+  <section id="home" class="d-flex align-items-center justify-content-center">
+    <div id="overlay"></div>
+    <div id="header" class="container text-white text-center">
+      <h3 class="display-5">AQUATIC HOTEL</h3>
+      <h1 class="display-1">TOTO JE TEXT, KTERÝ TĚ SEM DOSTANE</h1>
+      <p class="lead d-none d-md-block">A kdyby text výše nezabral, tak tento už zabere určitě. Tak si rovnou udělej
+        rezervačku ve formuláři níže.</p>
+
+
+
+      <form class="row g-3 my-5 text-start p-2">
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <div class="row">
+              <label for="jmeno" class="col-sm-4 col-form-label">JMÉNO: </label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="jmeno">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <label for="prijmeni" class="col-sm-4 col-form-label">PŘÍJMENÍ: </label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="prijmeni">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <div class="row">
+              <label for="datum_od" class="col-sm-4 col-form-label">OD KDY: </label>
+              <div class="col-sm-8">
+                <input type="date" class="form-control" id="odatum_od">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <label for="datum_do" class="col-sm-4 col-form-label">DO KDY: </label>
+              <div class="col-sm-8">
+                <input type="date" class="form-control" id="datum_do">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row mb-3 text-start">
+          <div class="col-md-4">
+            <div class="row">
+              <label for="telefon" class="col-sm-4 col-form-label">TELEFON: </label>
+              <div class="col-sm-8">
+                <input type="tel" class="form-control" id="telefon">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <label for="email" class="col-sm-4 col-form-label">MAIL: </label>
+              <div class="col-sm-8">
+                <input type="email" class="form-control" id="email">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-end">
+            <button type="submit" class="btn btn-primary px-5 rounded-pill">REZERVOVAT</button>
+          </div>
+        </div>
+      </form>
+      <button id="#book" class="btn btn-lg btn-primary fs-2 px-5 rounded-pill mb-5" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">MRKNI NA VIDEO</button>
+    </div>
+  </section>
+
+  <section class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered align-content-center justify-content-center">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mrkni na video</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body row">
+          <iframe src="https://www.youtube.com/embed/gJPOOUReEH8" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <nav class="navbar navbar-expand-md sticky-top fw-light bg-secondary navbar-light bg-gradient">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HOTEL MOTEL HOLIDAY!</a>
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto text-dark">
+          <li class="nav-item fs-4"><a class="nav-link active" href="#home">HOME</a></li>
+          <li class="nav-item fs-4"><a class="nav-link" href="#historie">HISTORIE</a></li>
+          <li class="nav-item fs-4"><a class="nav-link" href="#cenik">CENÍK</a></li>
+          <li class="nav-item fs-4"><a class="nav-link" href="#galerie">GALERIE</a></li>
+          <li class="nav-item fs-4"><a class="nav-link" href="#kontakty">KONTAKTY</a></li>
+          <li class="nav-item fs-4"><a class="nav-link" href="icon.html">ICON</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+
+
+
+
+  <section class="container my-5" id="historie">
+    <div class="row">
+      <div class="col-md-3 d-flex flex-column justify-content-between">
+        <h1>NEJSEM</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam enim molestiae voluptatem
+          consequatur
+          maiores, debitis doloremque eos. Maxime consectetur velit adipisci. Est vitae tempore reprehenderit magni
+          quibusdam! Amet, debitis commodi.</p>
+      </div>
+      <div class="col-md-3 d-flex flex-column justify-content-between"">
+        <h1>GRAFIK</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam enim molestiae voluptatem consequatur
+          maiores, debitis doloremque eos. Maxime consectetur velit adipisci. Est vitae tempore reprehenderit magni
+          quibusdam! Amet, debitis commodi.</p>
+      </div>
+      <div class=" col-md-6">
+        <h1>NEVADÍ</h1>
+        <img
+          src="http://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/China/Shanghai/intercontinental-shanghai-wonderland-hotel-china-new.jpg"
+          class="rounded img-fluid" alt="toto je alternaativa">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="container my-5" id="cenik">
+    <h1 class="text-center">Ceny našich skvělých pokojů</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-1 mt-5">
+
+
+      <div class="col">
+        <div class="card">
+          <img src="http://image.shutterstock.com/image-photo/top-view-young-drunk-woman-600w-620398190.jpg"
+            class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Zdarma za úklid</h5>
+            <p class="card-text">Když to uklidíš, tak tu můžeš bydlet týden zadarmo.</p>
+            <table class="table table-striped table-hover table-primary">
+              <thead>
+                <tr>
+                  <th scope="col">Počet osob</th>
+                  <th scope="col">Délka pobytu</th>
+                  <th scope="col">Cena</th>
+                  <th scope="col">Strava</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>max. dva týdny</td>
+                  <td>Zdarma</td>
+                  <td>Co najdeš v pokoji</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>max. týden</td>
+                  <td>Zdarma</td>
+                  <td>@Co najdeš v pokoji</td>
+                </tr>
+                <tr>
+                  <th scope="row">3 a více</th>
+                  <td colspan="2">max 5 dní zdarma</td>
+                  <td>Co najdete po předchozích nájemnících</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="top"
+              title="Sorry. Už není místo." data-bs-content="Byl strašně velký zíjem.">
+              Info o pokoji
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col">
+        <div class="card">
+          <img src="http://img.huffingtonpost.com/asset/5c7e8fe12400000802a2ac35.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Zdarma za úklid</h5>
+            <p class="card-text">Když to uklidíš, tak tu můžeš bydlet týden zadarmo.</p>
+            <table class="table table-striped table-hover table-primary">
+              <thead>
+                <tr>
+                  <th scope="col">Počet osob</th>
+                  <th scope="col">Délka pobytu</th>
+                  <th scope="col">Cena</th>
+                  <th scope="col">Strava</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>max. dva týdny</td>
+                  <td>Zdarma</td>
+                  <td>Co najdeš v pokoji</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>max. týden</td>
+                  <td>Zdarma</td>
+                  <td>@Co najdeš v pokoji</td>
+                </tr>
+                <tr>
+                  <th scope="row">3 a více</th>
+                  <td colspan="2">max 5 dní zdarma</td>
+                  <td>Co najdete po předchozích nájemnících</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="top"
+              title="Sorry. Už není místo." data-bs-content="Byl strašně velký zíjem.">
+              Info o pokoji
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="col">
+        <div class="card">
+          <img src="http://img.huffingtonpost.com/asset/5c7e8fe1240000b0044b73b1.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Zdarma za úklid</h5>
+            <p class="card-text">Když to uklidíš, tak tu můžeš bydlet týden zadarmo.</p>
+            <table class="table table-striped table-hover table-primary">
+              <thead>
+                <tr>
+                  <th scope="col">Počet osob</th>
+                  <th scope="col">Délka pobytu</th>
+                  <th scope="col">Cena</th>
+                  <th scope="col">Strava</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>max. dva týdny</td>
+                  <td>Zdarma</td>
+                  <td>Co najdeš v pokoji</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>max. týden</td>
+                  <td>Zdarma</td>
+                  <td>@Co najdeš v pokoji</td>
+                </tr>
+                <tr>
+                  <th scope="row">3 a více</th>
+                  <td colspan="2">max 5 dní zdarma</td>
+                  <td>Co najdete po předchozích nájemnících</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="top"
+              title="Sorry. Už není místo." data-bs-content="Byl strašně velký zíjem.">
+              Info o pokoji
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col">
+        <div class="card">
+          <img src="http://img.huffingtonpost.com/asset/5c7e8fe12000009a036ebf77.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Zdarma za úklid</h5>
+            <p class="card-text">Když to uklidíš, tak tu můžeš bydlet týden zadarmo.</p>
+            <table class="table table-striped table-hover table-primary">
+              <thead>
+                <tr>
+                  <th scope="col">Počet osob</th>
+                  <th scope="col">Délka pobytu</th>
+                  <th scope="col">Cena</th>
+                  <th scope="col">Strava</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>max. dva týdny</td>
+                  <td>Zdarma</td>
+                  <td>Co najdeš v pokoji</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>max. týden</td>
+                  <td>Zdarma</td>
+                  <td>@Co najdeš v pokoji</td>
+                </tr>
+                <tr>
+                  <th scope="row">3 a více</th>
+                  <td colspan="2">max 5 dní zdarma</td>
+                  <td>Co najdete po předchozích nájemnících</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="top"
+              title="Sorry. Už není místo." data-bs-content="Byl strašně velký zíjem.">
+              Info o pokoji
+            </button>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+
+  <section id="galerie" class="container my-5">
+    <h1 class="text-center my-5">Galerie</h1>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="http://img.huffingtonpost.com/asset/5c7e8fe12000009a036ebf77.jpeg" class="d-block w-100"
+            alt="první">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Nepořádek 1</h5>
+            <p>Takto to u nás vypadá, když trochu uklidíme. Nechceme na tom vydělávat, a tak nabízíme pokoje zadarmo.
+              Když nevyděláváme, tak tedy nemáme peníze na uklízečky a naši návštěvnící nejsou moc čistotní.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=2000&hei=1100&scl=1.504"
+            class="d-block w-100" alt="druhý">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ale příroda je krásná</h5>
+            <p>Tak se nenech odradit bincem</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.designmag.cz/foto/2020/12/design-by-nature-0.jpg" class="d-block w-100" alt="treti">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tak se neench odradit bincem</h5>
+            <p>Stejně budeš pořád na výletě</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://media.pri.org/s3fs-public/styles/story_main/public/photos/2014-February/rabbit_island_1.jpg?itok=h5qLWeSz"
+            class="d-block w-100" alt="treti">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Jídlo je teoreticky taky zdarma...</h5>
+            <p>Všechno toto jen za to, že uklidíš pokoj</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <section id="kontakty" class="container my-5">
+    <h1 class="text-center my-5">Kontakty</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20576.764022051615!2d18.132027341609835!3d49.85945064771039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713e110115cf60f%3A0x500af0f6615a620!2s725%2027%20Ostrava-Plesn%C3%A1!5e0!3m2!1scs!2scz!4v1620643772693!5m2!1scs!2scz"
+          allowfullscreen="" frameborder="0" loading="lazy"></iframe>
+      </div>
+      <div id="social_media"
+        class="col-md-3 d-flex flex-column justify-content-between align-items-center text-center fs-1">
+        <a href="" class="d-flex"><i class="fab fa-facebook"></i></a>
+        <a href="" class="d-flex"><i class="fab d-flex fa-twitter"></i></a>
+        <a href="" class="d-flex"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="col-md-3 d-flex flex-column justify-content-between">
+        <address>
+          <strong>Hotel Motel Holiday</strong><br>
+          1355 Market St, Suite 900<br>
+          San Francisco, CA 94103<br>
+          <abbr title="Phone">Tel:</abbr> (123) 456-7890
+        </address>
+        <address>
+          <strong>Johnny House</strong><br>
+          <a href="mailto:first.last@example.com">johnny@messy.com</a>
+        </address>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore a quae officiis labore, dignissimos
+      eligendi et ipsum consequuntur veritatis, quidem perspiciatis officia reprehenderit modi. Modi sit obcaecati ipsam
+      aliquam?</p>
+    <p>Aut, illum delectus officia veniam sapiente temporibus distinctio at minima sequi, laboriosam modi incidunt porro
+      veritatis, ut aperiam suscipit cupiditate corporis atque explicabo culpa! Accusantium voluptates voluptate vero
+      nulla molestias?</p>
+    <p>Accusantium iure sapiente voluptas, libero ullam fugiat autem tempora sequi, quas aspernatur deserunt aliquam.
+      Velit officia quam debitis necessitatibus labore? Autem deleniti molestias eligendi reprehenderit consequuntur,
+      quo vero enim velit?</p>
+    <p>Debitis obcaecati quod minima quibusdam in molestiae suscipit optio ex porro inventore, ducimus ullam, beatae
+      tenetur iure? Iste dolor nisi in! Delectus laborum quas iste neque aspernatur doloremque soluta culpa.</p>
+    <p>Omnis maiores harum recusandae aliquam saepe dolorum! Optio aut fuga odio ratione repellendus exercitationem
+      officiis. Repellat, ab quod? Alias eum vitae deserunt labore similique illo maiores possimus cupiditate
+      praesentium cumque.</p>
+    <p>Aliquid nesciunt tenetur sapiente, consequuntur nulla delectus porro mollitia quae ad a tempora tempore ea aut
+      iusto saepe? Voluptatum hic voluptatibus esse voluptates, corrupti ducimus deserunt consectetur iusto assumenda
+      quo!</p>
+    <p>Neque illo exercitationem eveniet doloremque ullam distinctio ratione fugiat, ipsum beatae harum error
+      voluptates, nostrum aliquam cumque? Quo repellat ab, quidem unde laboriosam exercitationem quia corrupti
+      recusandae, officia totam libero?</p>
+    <p>Tempora vitae beatae dolorem ex nihil! Iste accusamus odio sint alias assumenda fugit odit culpa, voluptates
+      quibusdam quos, ratione ea tenetur corrupti adipisci vel! Quasi itaque eos libero iusto odit?</p>
+    <p>Quae ducimus minima officia tempore eum nisi reiciendis odit exercitationem modi quisquam doloribus harum labore,
+      adipisci recusandae! Facere incidunt voluptatibus corrupti, harum, sapiente esse cumque odio dolorem architecto
+      sit fugiat.</p>
+    <p>Impedit iste maxime nesciunt quos autem asperiores ut et reprehenderit tempore, fuga soluta ullam, minima dolor
+      quibusdam architecto non consectetur amet perspiciatis eum numquam, beatae iure! Excepturi neque nostrum adipisci!
+    </p>
+    <p>Quis dignissimos facilis illum voluptas iure asperiores incidunt corporis libero accusantium similique quia vitae
+      est velit sint obcaecati nemo qui, maxime ullam eum praesentium rerum quaerat nihil dolore temporibus?
+      Repudiandae?</p>
+    <p>Voluptatem illum rerum nihil itaque. Quae officia harum modi rem nesciunt eius ipsam minus nihil dolore,
+      explicabo mollitia corporis, adipisci, expedita possimus sapiente optio. Voluptates eveniet animi error minima
+      veniam.</p>
+    <p>Nemo, rem assumenda earum eius ad quo quis iure eos sint quaerat obcaecati ipsum commodi veritatis vitae quae.
+      Alias, enim pariatur voluptatibus fuga quas sapiente ipsum officia ullam libero laudantium.</p>
+    <p>Vero, placeat eum et quas praesentium esse labore beatae quos doloremque cupiditate? Error quidem fugiat numquam.
+      Iure, quae sunt doloremque ducimus, totam facere ab vel iste veniam qui voluptatem quos.</p>
+    <p>Corrupti aut doloremque nam ullam hic ea dolor aliquid quo vero, rem maxime minima quaerat. Libero tenetur soluta
+      quia quae deleniti sit corrupti praesentium, porro non. Commodi eaque sint maiores?</p>
+    <p>Perspiciatis unde cum vero necessitatibus possimus aperiam a autem! Porro ex quidem incidunt, minima at
+      laboriosam nihil iste ducimus aliquid a doloribus dignissimos eveniet ut ipsum hic adipisci! Sequi, tempore!</p>
+    <p>Deserunt incidunt ad voluptate perspiciatis natus voluptatibus saepe, officiis perferendis, quaerat magnam qui
+      impedit consequuntur distinctio! Qui amet maiores saepe, quam alias officia eveniet vitae. Voluptates eos nesciunt
+      alias consequatur.</p>
+    <p>Cum ducimus optio, numquam voluptatibus similique esse fugit mollitia eius nisi eligendi ipsum quidem explicabo
+      autem illo sed commodi ipsa temporibus excepturi nemo fugiat laboriosam aliquam distinctio vel illum. In!</p>
+    <p>Doloremque, possimus, non debitis excepturi, dignissimos ducimus animi cupiditate sapiente dicta eius quam
+      perferendis voluptates totam tempora suscipit optio laborum fugiat enim sunt eveniet. Non cumque cum molestias
+      asperiores totam!</p>
+    <p>Provident earum odit assumenda vel debitis quis dolorum. Velit architecto nobis quos repellendus dolores ipsa
+      necessitatibus obcaecati dolore voluptatum rem, qui consequuntur distinctio? Facere ad culpa explicabo optio
+      officia repellendus!</p>
+    <p>Itaque exercitationem officia repudiandae aspernatur culpa ipsam numquam quas autem adipisci minima dignissimos
+      veritatis, facilis temporibus fuga aliquam beatae quis sapiente voluptatem sint hic nulla voluptatum reiciendis,
+      earum illum. Facere!</p>
+    <p>Aspernatur ut saepe earum, nemo vero velit eos provident adipisci nobis sequi consequuntur, laudantium pariatur
+      magnam sunt consequatur culpa autem ratione excepturi assumenda voluptates cumque, aliquid quis! Quisquam,
+      distinctio earum.</p>
+    <p>Molestias natus esse nostrum nesciunt quod? Numquam, vitae reiciendis. Voluptates architecto vel sunt voluptate
+      possimus nesciunt molestias error eos quod tempora. Molestias velit eligendi repellendus fugit voluptatem,
+      consectetur maiores facere.</p>
+    <p>Consequatur asperiores magnam ex labore nobis, deserunt aliquid adipisci laboriosam necessitatibus fugit minus
+      debitis temporibus unde, neque nisi nihil hic ad ab sed dicta illum dignissimos animi mollitia sequi. Blanditiis.
+    </p>
+    <p>Ab ipsa maiores ad et officiis illum cumque ipsum laboriosam, aliquid excepturi dignissimos soluta labore
+      voluptas doloribus similique beatae laborum eum officia dolor. A ex deleniti fugit sapiente officiis ipsum!</p>
+    <p>Quo veniam sapiente architecto corporis praesentium eum iure inventore vitae rem? Ipsum ipsam sapiente accusamus
+      expedita quo, numquam libero nihil officiis eligendi veritatis magnam deleniti assumenda corrupti. Repellat, rerum
+      vero!</p>
+    <p>Consequatur sapiente rem provident reprehenderit doloremque aut molestias, deserunt, officia officiis optio
+      dolore quod soluta cumque quaerat ad iste, hic eum ab reiciendis. Officia, repellendus dolor nobis minus dolorum
+      libero?</p>
+    <p>Illo, architecto dolore? Eveniet deleniti voluptas incidunt ut facilis in suscipit unde perspiciatis rem quae
+      minima placeat quia possimus debitis, minus, mollitia pariatur deserunt alias vel magni veniam eius? Odio.</p>
+    <p>Laboriosam iure quo maiores accusamus exercitationem id dolor consequatur animi, incidunt at similique corporis
+      eum cupiditate, aperiam soluta! Consectetur in aut temporibus veniam suscipit assumenda minima ipsam repellat enim
+      nihil?</p>
+    <p>Esse, provident sunt commodi soluta aperiam laboriosam vitae modi, libero nostrum iure beatae ipsa ipsum nemo
+      nesciunt. Soluta saepe, voluptatum ratione excepturi, rem harum cum nisi rerum obcaecati quod sequi.</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+
+  <div id="coordinates" style="position:fixed;right:0;bottom:0;color:red"></div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+
+      coordinates = document.getElementById("coordinates");
+      coordinates.innerText = 'Velikost Okna: X: ' + window.innerWidth + ' | Y: ' + window.innerHeight;
+      window.addEventListener('resize', (event) => {
+        coordinates.innerText = 'X: ' + window.innerWidth + ' | Y: ' + window.innerHeight;
+      });
+    });
+  </script>
+</body>
+
+</html>
